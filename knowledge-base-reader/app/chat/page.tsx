@@ -17,6 +17,7 @@ const Chat = () => {
         inputMessage,
         "userId",
         (answer: string) => {
+          console.log(answer);
           setMessages([...messages, answer]);
         }
       );
